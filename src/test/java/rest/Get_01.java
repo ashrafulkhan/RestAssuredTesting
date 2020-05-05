@@ -1,5 +1,6 @@
 package rest;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
@@ -16,6 +17,10 @@ public class Get_01 {
 	System.out.println(response.getBody().asString());
 	System.out.println(response.getTime());
 	System.out.println(response.statusLine());
+	
+	
+	int statusCode = response.getStatusCode();
+	Assert.assertEquals(statusCode, 200);
 	
 	}
 
