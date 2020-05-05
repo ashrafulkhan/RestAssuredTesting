@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1298" started-at="2020-05-05T23:02:38Z" finished-at="2020-05-05T23:02:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1298" started-at="2020-05-05T23:02:38Z" finished-at="2020-05-05T23:02:40Z">
+      <class name="rest.Get_01">
+        <test-method status="PASS" signature="getTest01()[pri:0, instance:rest.Get_01@6d4b1c02]" name="getTest01" duration-ms="1280" started-at="2020-05-05T23:02:38Z" finished-at="2020-05-05T23:02:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTest01 -->
+      </class> <!-- rest.Get_01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
